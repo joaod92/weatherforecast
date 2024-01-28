@@ -1,0 +1,82 @@
+/* Set white background for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  .weather-header {
+    background: linear-gradient(90deg, #3174d8, #3c1068); /* Gradient from blue to dark purple */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align the text */
+    padding: 120px 0; /* Increased padding for more height */
+  }
+  
+  .weather-header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold; 
+  }
+  
+  /* Main container styles */
+  .container-fluid {
+    margin: 0 auto;
+    padding: 20px 50px;
+    background-color: #ffffff;
+  }
+  
+  /* Search section styles */
+  aside {
+    width: 20%; /* Set the width to 20% of the page */
+    float: left; /* Float the search section to the left */
+    background-color: #fff; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+  }
+  
+  .search-section {
+    margin-bottom: 20px;
+  }
+  
+  #form-heading {
+    margin-bottom: 10px;
+  }
+  
+  .weather-search {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .suggestions {
+    margin-top: 20px;
+  }
+  
+  .suggestion {
+    cursor: pointer;
+    margin-bottom: 5px;
+    color: #007bff; 
+  }
+  
+  /* Forecast section styles */
+  #forecast {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping to the next row */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding-bottom: 20px; /* Add some bottom padding to avoid cutting off content */
+    padding-left: 20px; /* Adding padding to the left of this */
+    background-color: #fff; 
+    justify-content: space-between; /* Evenly space items */
+  }
+  
+  
+  .card {
+    flex: 0 0 auto; /* Ensure cards don't grow and shrink */
+    width: 180px; /* Set a wider width for each card */
+    margin-right: 10px; /* Add some space between cards */
+    background-color: #24588d; 
+    padding: 10px; 
+    font-size: 14px; 
+    color: #fff;
+  }
